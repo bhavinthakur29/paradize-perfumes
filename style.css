@@ -1,0 +1,75 @@
+body {
+    background-image: linear-gradient(#f44369, #3e3b92);
+    background-repeat: no-repeat;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.container .main-page-btn {
+    margin: 10px;
+    font-weight: 900;
+    background-color: rgb(77, 0, 77);
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.container .main-page-btn:hover {
+    transform: scale(1.05);
+}
+
+
+.modal-content {
+    background-color: #4f08a083;
+}
+
+.modal-title {
+    text-transform: uppercase;
+    color: white;
+}
+
+#site-logo {
+    text-align: center;
+    box-shadow: 0px -5px 10px -5px white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#site-logo h1 {
+    color: white;
+    margin: 15px 0;
+    /* text-decoration: underline; */
+    font-size: 20px;
+}
+
+#site-logo img {
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 100px;
+    max-height: 100px;
+    object-fit:contain;
+}
+
+
+button:hover {
+    background-color: rgb(151, 0, 151);
+}
+
+.submit-form {
+    background-color: green;
+    color: white;
+    min-width: 100%;
+    text-transform: uppercase;
+    font-weight: 900;
+    border: none;
+}
+
+.submit-form:hover {
+    background-color: rgb(0, 95, 0);
+}
